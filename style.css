@@ -637,6 +637,12 @@ text-align: justify;
     }
 }
 
+@media screen and (min-height: 1200px) {
+    .container-contact {
+        height: 100%;
+    }
+}
+
 /* media screen under 1200px*/
 /*@media screen and (max-width: 1200px) {
     .container {
