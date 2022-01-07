@@ -572,6 +572,8 @@ text-align: justify;
 
     .container .section .left {
         width: 100%;
+        height: auto;
+        padding: 100px 0;
     }
 
     .container .section .right {
