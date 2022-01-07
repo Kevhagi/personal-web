@@ -5,6 +5,10 @@
     font-family: Poppins;
 }
 
+body{
+    background-color: beige;
+}
+
 /* navbar start*/
 nav{
     height: 10vh;
@@ -116,9 +120,8 @@ nav .right a:hover{
 .container-contact{
     height: 90vh;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     background-color: beige;
 }
 
@@ -644,56 +647,3 @@ text-align: justify;
         height: 100%;
     }
 }
-
-/* media screen under 1200px*/
-/*@media screen and (max-width: 1200px) {
-    .container {
-        display: block;
-        height: 100%;
-        margin-bottom: 0;
-        padding: 70px 0;
-        padding-bottom: 60px;
-    }
-
-    .container .section {
-        display: block;
-        width: 100%;
-    }
-
-    .container .section .left{
-        width: 100%;
-    }
-
-    .container .section .right{
-        margin: 50px auto;
-        padding-top: 0;
-        display: flex;
-    }
-
-    .skill-container div{
-        margin: 20px 0;
-    }
-
-    .right .title{
-        margin-bottom: 20px;
-    }
-
-    .skill-container{
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-
-    .skill-container div{
-        margin-left: 0;
-    }
-}
-
-@media screen and (max-width: 690px) {
-    nav .left {
-        width: 60%;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        padding-left: 5%;
-    }
-}*/
