@@ -641,9 +641,3 @@ text-align: justify;
         height: auto;
     }
 }
-
-@media screen and (min-height: 1200px) {
-    .container-contact {
-        height: 100%;
-    }
-}
