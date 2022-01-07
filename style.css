@@ -5,11 +5,6 @@
     font-family: Poppins;
 }
 
-body{
-    min-width: 650px;
-    min-height: 560px;
-}
-
 /* navbar start*/
 nav{
     height: 10vh;
@@ -34,7 +29,8 @@ nav .left .logo{
 
 .logo{
     align-items: center;
-    padding: 0px 30px;
+    padding: 0px;
+    padding-right: 30px;
     height: 60px;
     width: 60px;
 }
@@ -245,7 +241,7 @@ td:last-child{
 
 /* section right (title) start */
 .title{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 /* section right (title) end */
 
@@ -371,6 +367,7 @@ option{
 /* Blog Form */
 .blog{
     background: beige;
+    height: 100%;
 }
 
 .blog-form {
@@ -434,7 +431,6 @@ option{
 /* Blog list */
 .blog .blog-list {
     margin-top: 80px;
-    padding-bottom: 80px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -542,10 +538,113 @@ line-height: 140%;
 text-align: justify;
 }
 
+@media screen and (max-width: 600px) {
+    form{
+        width: 350px;
+        padding: 30px 40px;
+    }
 
+    .form-container form div textarea {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    nav .left {
+        width: 100%;
+    }
+
+    nav .right a {
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .container {
+        display: block;
+        height: 100%;
+    }
+
+    .container .section {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .container .section .left {
+        width: 100%;
+    }
+
+    .container .section .right {
+        padding: 0;
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    .container .section .right .skill-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .container .section .right .skill-container div {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .container .section .right .social-media {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    nav .right a{
+        padding: 15px 20px;
+        border-radius: 25px;
+    }
+
+    .container .section .right .skill-container {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+
+    .container .section .right .skill-container div:nth-child(2) {
+        margin: 0 50px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container .section .left {
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1390px) {
+    .container {
+        height: 90vh;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    nav {
+        height: 20vh;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .blog {
+        height: auto;
+    }
+}
+
+@media screen and (min-height: 1200px) {
+    .container-contact {
+        height: 100%;
+    }
+}
 
 /* media screen under 1200px*/
-@media screen and (max-width: 1200px) {
+/*@media screen and (max-width: 1200px) {
     .container {
         display: block;
         height: 100%;
@@ -595,4 +694,4 @@ text-align: justify;
         justify-content: flex-start;
         padding-left: 5%;
     }
-}
+}*/
