@@ -270,11 +270,6 @@ td:last-child{
     transform: scale(1.1);
 }
 
-.skill-container div{
-    margin-left: 50px;
-    
-}
-
 .skill-container div:first-child{
     margin-left: 0;
 }
